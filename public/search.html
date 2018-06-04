@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Lyricon</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+  <form name="searchForm" action="/search/result" method="post">
+      <input type="hidden" name="id" value="0" />
+      <div class="form-group">
+          <label>Enter the nickname of singer</label>
+          <input class="form-control" name="singer" />
+      </div>
+      <div class="form-group">
+          <label for="age">Enter the name of song</label>
+          <input class="form-control" name="song" />
+      </div>
+      <div class="panel-body">
+          <button type="submit" class="btn btn-sm btn-primary">Search</button>
+      </div>
+  </form>
+</body>
+</html>
